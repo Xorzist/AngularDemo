@@ -1,0 +1,6 @@
+
+<br><br>
+<h1 [hidden]="!isVisible">{{title}}</h1>
+<button [hidden]="isVisible" (click)="changeVisibility()"> Show / Hide</button>
+<br>
+<div> <app-customers-list [CustomerList]="people"></app-customers-list></div>
